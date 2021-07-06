@@ -1,4 +1,4 @@
-package sample;
+package assignments;
 
 public class Controller {
 }
