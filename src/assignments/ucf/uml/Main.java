@@ -78,8 +78,14 @@ public class Main extends Application {
         loadSingle = new LoadSingleList();
 
         //20. A user shall be able to load multiple todo lists that were previous saved to external storage
+        LoadMultipleLists loadMultiple;
+        loadMultiple = new LoadMultipleLists();
+
         //Bonus: If your application allows the user to sort a todo list by due date, you will earn 1 extra
         // point for the test and 1 extra point for the implementation.
+        SortListByDueDate sortByDueDate;
+        sortByDueDate = new SortListByDueDate();
+
         launch(args);
     }
 
