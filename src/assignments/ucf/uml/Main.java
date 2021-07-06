@@ -45,14 +45,25 @@ public class Main extends Application {
         editDescription = new EditItemDescription();
 
         //12. A user shall be able to edit the due date of an item within an existing todo list
+        EditItemDueDate editDueDate;
+        editDueDate = new EditItemDueDate();
+
         //13. A user shall be able to mark an item in a todo list as complete
+        MarkItemComplete markComplete;
+        markComplete = new MarkItemComplete();
+
         //14. A user shall be able to display all of the existing items in a todo list
+
+
+
         //15. A user shall be able to display only the incomplete items in a todo list
         //16. A user shall be able to display only the completed items in a todo list
         //17. A user shall be able to save all of the items in a single todo list to external storage
         //18. A user shall be able to save all of the items across all of the todo lists to external storage
         //19. A user shall be able to load a single todo list that was previously saved to external storage
         //20. A user shall be able to load multiple todo lists that were previous saved to external storage
+        //Bonus: If your application allows the user to sort a todo list by due date, you will earn 1 extra
+        // point for the test and 1 extra point for the implementation.
         launch(args);
     }
 
