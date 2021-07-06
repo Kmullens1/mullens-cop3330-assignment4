@@ -53,14 +53,30 @@ public class Main extends Application {
         markComplete = new MarkItemComplete();
 
         //14. A user shall be able to display all of the existing items in a todo list
-
+        DisplayExistingItems displayItems;
+        displayItems = new DisplayExistingItems();
 
 
         //15. A user shall be able to display only the incomplete items in a todo list
+        DisplayIncompleteItems displayIncomplete;
+        displayIncomplete = new DisplayIncompleteItems();
+
         //16. A user shall be able to display only the completed items in a todo list
+        DisplayCompleteItems displayComplete;
+        displayComplete = new DisplayCompleteItems();
+
         //17. A user shall be able to save all of the items in a single todo list to external storage
+        SaveInSingleList saveSingle;
+        saveSingle = new SaveInSingleList();
+
         //18. A user shall be able to save all of the items across all of the todo lists to external storage
+        SaveAllItems saveAll;
+        saveAll = new SaveAllItems();
+
         //19. A user shall be able to load a single todo list that was previously saved to external storage
+        LoadSingleList loadSingle;
+        loadSingle = new LoadSingleList();
+
         //20. A user shall be able to load multiple todo lists that were previous saved to external storage
         //Bonus: If your application allows the user to sort a todo list by due date, you will earn 1 extra
         // point for the test and 1 extra point for the implementation.
